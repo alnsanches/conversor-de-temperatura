@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Temperatura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="page-title">
+            Conversor de Temperaturas
+        </h1>
+        <p class="page-subtitle">
+            Valores em Celsius, Kelvin e Fahrenheit.</p>
+            <br>
+
+        <label for="moeda">Insira o valor: </label><br>
+        <input type="number" id="temperatura" size="2" required placeholder="Digite um número" /><br>
+        <button type="submit" onclick="KelvinEmCelsius()">Kelvin para Celsius</button>
+        <button type="submit" onclick="KelvinEmFahrenheit()">Kelvin para Fahrenheit</button>
+        <button type="submit" onclick="CelsiusEmKelvin()">Celsius para Kelvin</button> <br>
+        <button type="submit" onclick="CelsiusEmFahrenheit()">Celsius para Fahrenheit</button>
+        <button type="submit" onclick="FahrenheitEmCelsius()">Fahrenheit para Celsius</button>
+        <button type="submit" onclick="FahrenheitEmKelvin()">Fahrenheit para Kelvin</button>
+
+        <div id="resultado"> </div>
+    </div>
+
+<footer>
+    <p>Coded by Aline Santos Sanches</p>
+</footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
